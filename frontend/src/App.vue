@@ -1,9 +1,14 @@
 <template>
-  <div></div>
+  <the-header></the-header>
 </template>
 
 <script>
-export default {};
+import TheHeader from "./layout/TheHeader.vue";
+export default {
+  components: {
+    TheHeader,
+  },
+};
 </script>
 
 <style></style>
